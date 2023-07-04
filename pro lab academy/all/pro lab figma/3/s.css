@@ -1,0 +1,631 @@
+* {
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.h button {
+    display: none;
+}
+
+.itmes__hh {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.itmes__hh img {
+    width: 20px;
+}
+
+.header__header {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    padding-left: 300px;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.heder__logo {
+    display: flex;
+    gap: 40px;
+}
+
+.heder__logo img {
+    width: 140px;
+}
+
+nav {
+    cursor: pointer;
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+
+nav p {
+
+    font-size: 14px;
+}
+
+.headre {
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.mainimgs {
+    margin: 0 auto;
+    color: white;
+    height: 1000px;
+    width: 100%;
+    background: url(./assets/img/hero-university\ 2.png) no-repeat;
+}
+
+.testmain {
+    text-align: center;
+    color: white;
+}
+
+.testmain p {
+    margin: 0 auto;
+    max-width: 900px;
+    padding-top: 300px;
+    font-size: 70px;
+}
+
+.testmain button {
+    color: white;
+    background: linear-gradient(90deg, #59A745 -11.11%, #A8CF38 94.03%);
+    padding: 10px 50px;
+    border: none;
+    border-radius: 20px;
+}
+
+.boxs {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    max-width: 400px;
+}
+
+.boxtes p {
+    color: rgb(183, 183, 183);
+}
+
+.loh {
+    width: 60px;
+}
+
+.bos {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.df__right img {
+    width: 500px;
+    height: 700px;
+}
+
+.df__left {
+    max-width: 400px;
+}
+
+.df__left h1 {
+    font-size: 35px;
+    padding-top: 100px;
+}
+
+.bores {
+    padding-top: 10px;
+    color: #59A745;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(51, 199, 24);
+    gap: 20px;
+}
+
+.df__left p {
+    color: #757575;
+}
+
+section.df {
+    display: flex;
+    justify-content: space-between;
+}
+
+.clr__top__left img {
+    max-width: 500px;
+}
+
+.clr__top__right {
+    max-width: 500px;
+}
+
+.clr__top__right p {
+    font-size: 15px;
+    color: gray;
+    font-weight: 200;
+}
+
+.tes {
+    display: flex;
+    gap: 20px;
+}
+
+.clr__bottom button {
+    color: white;
+    margin-top: 20ox;
+    background: linear-gradient(90deg, #59A745 -11.11%, #A8CF38 94.03%);
+    padding: 10px 50px;
+    border: none;
+    border-radius: 20px;
+}
+
+.clr__top {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.colsr {
+    margin-top: 100px;
+    background: rgb(238, 238, 238);
+}
+
+.clr__sbottom {
+    padding: 200px 0;
+}
+
+.about {
+    color: #9c9c9c;
+    text-align: center;
+    padding: 100px 0;
+
+}
+
+.about p {
+    color: green;
+}
+
+.imgs {
+    flex-wrap: wrap;
+    padding: 30px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.img {
+    border-radius: 20px;
+    margin: 10px;
+    width: 300px;
+    height: 250px;
+    background: url(./assets/img/477885151\ 1.png);
+}
+
+.t p {
+    margin: 0;
+    color: white;
+
+}
+
+.t span {
+    padding-top: 3px;
+    font-size: 15px;
+    color: #59A745;
+}
+
+.t {
+    padding: 10px 10px;
+    margin-top: 170px;
+    width: 200px;
+    background: rgb(0, 0, 0);
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.s img {
+
+    text-align: center;
+    height: 30px;
+    width: 600px;
+}
+
+.s {
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.buts button {
+    color: white;
+    margin-top: 20ox;
+    background: linear-gradient(90deg, #59A745 -11.11%, #A8CF38 94.03%);
+    padding: 10px 50px;
+    border: none;
+    border-radius: 20px;
+}
+
+.test {
+    font-size: 25px;
+    max-width: 700px;
+    text-align: center;
+}
+
+.item__unier2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.unier {
+    margin-top: 100px;
+    color: white;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: url(./assets/img/university-avenue-dental-office\ 1.png);
+}
+
+.item__unier3 img {
+    width: 40px;
+}
+
+.g {
+    max-width: 300px;
+    height: 613px;
+    margin: 5px;
+}
+
+.mini {
+    max-width: 203px;
+    height: 250px;
+    margin: 5px;
+}
+
+.min {
+    max-width: 430px;
+    height: 250px;
+    margin: 5px;
+}
+
+.c {
+    max-width: 207px;
+    height: 355px;
+    margin: 5px;
+}
+
+.imggm,
+.imggc,
+.imgg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imgss {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+.top span {
+    color: #59A745;
+}
+
+.top {
+    margin: 5px;
+    color: rgb(195, 195, 195);
+}
+
+.top {
+    border-radius: 20px;
+    background: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    gap: 10px;
+}
+
+.top img {
+    width: 50px;
+}
+
+.footes {
+    background: rgb(245, 245, 245);
+}
+
+.footer__tops {
+    padding-bottom: 50px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    background: linear-gradient(90deg, #59A745 -11.11%, #A8CF38 94.03%);
+}
+
+footer img {
+    width: 500px;
+}
+
+.clr__sbottom {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.clr__sbottom img {
+    max-width: 140px;
+}
+
+@media (max-width: 1024px) {
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .header__header {
+        padding: 0;
+    }
+
+    nav p .h button {
+        color: white;
+        margin-top: 20ox;
+        background: linear-gradient(90deg, #59A745 -11.11%, #A8CF38 94.03%);
+        padding: 10px 50px;
+        border: none;
+        border-radius: 20px;
+    }
+
+    .bos {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .testmain p {
+        max-width: 500px;
+        font-size: 40px;
+        padding-top: 100px;
+    }
+
+    .min {
+        display: none;
+    }
+
+
+}
+
+@media(max-width: 970px) {
+    section.df {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .df__right {
+        margin-top: 50px;
+    }
+
+    .df__right {
+        padding-top: 100px;
+    }
+
+    .testmain p {
+        max-width: 400px;
+    }
+
+    .imgs {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer__tops {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .clr__top {
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+/* @media (max-width: 1200px) {
+
+    .imgss{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .imggc{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .imggm{
+        display: flex;
+        flex-wrap: wrap;
+    }
+} */
+@media (max-width: 450px) {
+    .imggc img{
+        width: 200px;
+    }
+    .imggm img {
+        width: 100%;
+    }
+    .imgg img {
+        width: 100%;
+    }
+    
+}
+@media (max-width: 680px) {
+    .s {
+        display: none;
+    }
+  
+
+    .imgs {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    nav p {
+        display: none;
+    }
+
+    .bos {
+        padding: 30px;
+    }
+
+    .testmain p {
+        max-width: 400px;
+        padding-top: 40px;
+    }
+
+    .mainimgs {
+        color: white;
+        height: 130vh;
+        width: 100%;
+        background: url(./assets/img/hero-university\ 2.png) no-repeat;
+    }
+
+    section.df {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    /* .df__right{
+    padding-top: 100px;
+}
+.clr__top{
+    display: flex;
+    flex-wrap: wrap;
+} */
+    .clr__top__left {
+        width: 70%;
+    }
+
+    .df__left {
+        max-width: 70%;
+    }
+
+    .df__right img {
+        text-align: center;
+        max-width: 100%;
+    }
+
+    .df__right {
+        display: flex;
+        justify-content: center;
+    }
+
+    .bores {
+        max-width: 70%;
+    }
+
+    .df__left h1 {
+        display: none;
+
+    }
+
+    .imggm,
+    .imggc,
+    .imgg {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .clr__sbottom {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .clr__top__left img {
+        width: 70%;
+    }
+
+    .imgs {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .img {
+        margin-top: 100px;
+    }
+
+    .footer__tops {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .top {
+        margin-top: 30px;
+    }
+
+    footer img {
+        max-width: 60%;
+    }
+}
+
+@media (max-width:390px) {
+    .mainimgs {
+        color: white;
+        height: 140vh;
+        width: 100%;
+        background: url(./assets/img/hero-university\ 2.png) no-repeat;
+    }
+
+}
+
+@media (max-width:340px) {
+    .header__header {
+        display: none;
+    }
+    .mainimgs {
+        color: white;
+        height: 150vh;
+        width: 100%;
+        background: url(./assets/img/hero-university\ 2.png) no-repeat;
+    }
+
+    .mainimgs {
+        color: white;
+        height: 140vh;
+        width: 100%;
+        background: url(./assets/img/hero-university\ 2.png) no-repeat;
+    }
+}
+
+@media (max-width:310px) {
+  
+    .mainimgs {
+        color: white;
+        height: 170vh;
+        width: 100%;
+        background: url(./assets/img/hero-university\ 2.png) no-repeat;
+    }
+}

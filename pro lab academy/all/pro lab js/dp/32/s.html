@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="./sd.js"></script>
+    <!-- <script>let hootel = [
+        {
+            id: 1,
+            name: 'pakoy hana',
+            cost: 0,
+            cost_per_person: 100,
+            cost_per_child: 50,
+            catid: 3,
+        },
+        {
+            id: 2,
+            name: 'pakoy stalina',
+            cost: 150,
+            cost_per_person: 190,
+            cost_per_child: 100,
+            catid: 2,
+    
+        },
+        {
+            id: 3,
+            name: 'pakoy whreka',
+            cost: 0,
+            cost_per_person: 90,
+            cost_per_child: 40,
+            catid: 1,
+    
+        },
+    ];
+    
+    let categories = [
+        {
+            id: 1,
+            name: 'standart'
+        },
+        {
+            id: 2,
+            name: 'eloman'
+        },
+        {
+            id: 3,
+            name: 'premium'
+        }
+    ];
+    let custmer = [
+        {
+            id: 1,
+            people: 5,
+            children: 2,
+            roome_id: 1,
+            date__start: '2023-05-21',
+            day: 5
+        },
+        {
+            id: 2,
+            people: 2,
+            children: 2,
+            roome_id: 2,
+            date__start: '2023-05-20',
+            day: 5
+    
+        }
+    ]
+    function loh(people, children, roome_ids, data_start, day) {
+        let customer = custmer.sort((a, b) => new Date(a.date__start) - new Date(b.date__start))
+        let i = 0
+        let i1 = 0
+        let startDate = new Date(custmer[i++].date__start).getTime()
+        let sj = new Date(data_start).getTime()
+        let objs = custmer.find(items => items)
+        let s = new Date(objs.date__start)
+        let r = new Date(s.setDate(s.getDate() + objs.day))
+        objs.date__end = r
+        console.log(custmer);
+        let e = new Date(objs.date__end).getTime()
+        for (let items of custmer) {
+    
+            for (let item2 of hootel) {
+                console.log(startDate);
+                console.log(sj);
+                console.log(e);
+                if (items.roome_id == item2.id &&startDate == sj) {
+    
+            
+    
+                        // console.log(e);
+                        for (let itme of categories) {
+                            if (item2.catid == itme.id) {
+                                if (startDate > sj && sj > e && sj == startDate) {
+                                    console.log('zapolnen');
+                                    return true
+                                }
+                                if (sj > startDate || e > sj) {
+                                    console.log('s');
+    
+                                    custmer.push({
+                                        id: ++custmer.length,
+                                        children: children,
+                                        roome_id: roome_ids,
+                                        people: people,
+                                        date__start: data_start,
+                                        day: day
+                                    })
+                                    return true
+    
+                                }
+    
+                            }
+                        }
+                    
+    
+                }
+                else {
+                    console.log('s1');
+                    custmer.push({
+                        id: ++custmer.length,
+                        children: children,
+                        roome_id: roome_ids,
+                        people: people,
+                        date__start: data_start,
+                        day: day
+                    })
+                    return true
+                }
+    
+    
+            }
+        }
+    }
+    loh(5, 2, 1, '2023-05-25', 5)
+    let customer = custmer.sort((a, b) => new Date(a.date__start) - new Date(b.date__start))
+    console.log(custmer); -->
+    <!-- </script> -->
+
+</body>
+</html>

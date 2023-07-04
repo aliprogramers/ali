@@ -1,0 +1,17 @@
+/* 04 */
+
+position: absolute;
+left: 67.74%;
+right: 29.76%;
+top: 49.5%;
+bottom: 42.17%;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 140%;
+/* or 50px */
+
+color: #202020;
+

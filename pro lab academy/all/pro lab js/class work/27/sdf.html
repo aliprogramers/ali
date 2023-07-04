@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script src="./sdfs.js"></script>
+    <script>
+        let month = [
+            {
+                id: 0,
+                name: 'yanvar'
+            },
+            {
+                id: 1,
+                name: 'fevral'
+            },
+            {
+                id: 2,
+                name: 'mart'
+            },
+            {
+                id: 3,
+                name: 'aprel'
+            },
+            {
+                id: 4,
+                name: 'may'
+            },
+            {
+                id: 5,
+                name: 'iyl'
+            },
+            {
+                id: 6,
+                name: 'iun'
+            },
+            {
+                id: 7,
+                name: 'avgus'
+            },
+            {
+                id: 8,
+                name: 'sen'
+            },
+            {
+                id: 9,
+                name: 'actya'
+            },
+            {
+                id: 10,
+                name: 'nayabr'
+            },
+            {
+                id: 11,
+                name: 'dekaber'
+            },
+        ]
+
+        let day = [
+            {
+                id: 0,
+                name: 'panidenik'
+            },
+            {
+                id: 1,
+                name: 'vtornik'
+            },
+            {
+                id: 2,
+                name: 'sreda'
+            },
+            {
+                id: 3,
+                name: 'chetverk'
+            },
+            {
+                id: 4,
+                name: 'pyatnisa'
+            },
+            {
+                id: 5,
+                name: 'subota'
+            },
+            {
+                id: 6,
+                name: 'vaskriseniya'
+            },
+        ]
+        function days(dates) {
+            let ars = []
+
+            let s = dates.split('-')
+            let y = new Date().getFullYear(s[0])
+            let d = new Date().getDay(s[1])
+            let m = new Date().getMonth(s[2])
+            for (let item of month) {
+                if (item.id == m) {
+                    m = item.name
+                    for (let itemw of day) {
+                        if (itemw.id == d) {
+                            d = itemw.name
+                            y += 'god'
+                            ars.push(y, m, d)
+
+                        }
+                    }
+                }
+            }
+            console.log(ars);
+        }
+        days('2023-01-23')
+    </script>
+</body>
+
+</html>

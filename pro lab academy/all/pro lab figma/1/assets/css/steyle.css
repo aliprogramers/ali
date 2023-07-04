@@ -1,0 +1,233 @@
+* {
+    background-color: #00040F;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+}
+
+.container {
+    max-width: 1070px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    gap: 48px;
+}
+
+.nav__item {
+    color: rgba(255, 255, 255, 0.7);
+
+    transition: .2s;
+}
+
+.active {
+    color: #e4e8f6;
+}
+
+.header__left {
+    display: flex;
+    font-size: 30px;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__left h3 span {
+    color: #66b3ea;
+}
+
+.header__left h3 {
+    color: #dedef6;
+}
+
+.main__items_1 h5 .span {
+    color: white;
+}
+
+.main__items_1 img {
+    width: 20px;
+}
+
+.main__items_1 {
+    display: flex;
+    background: #000000;
+    gap: 10px;
+    width: 300px;
+    align-items: center;
+    height: 40px;
+    color: #6d6e6f;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.main__left {
+    position: relative;
+
+}
+
+.main {
+    font-family: 'Roboto', sans-serif;
+}
+
+.ten img {
+    height: 500px;
+}
+
+.main__left__itme2 span {
+    background: radial-gradient(64.18% 64.18% at 71.16% 35.69%, #DEF9FA 0.89%, #BEF3F5 17.23%, #9DEDF0 42.04%, #7DE7EB 55.12%, #5CE1E6 71.54%, #33BBCF 100%)
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+    ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+}
+
+.main__left__itme2 {
+    font-size: 72px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.main__left__itme3 {
+    max-width: 430px;
+    color: gray;
+    padding-top: 50px;
+}
+
+.texts {
+    padding-top: 100px;
+    font-weight: 900;
+    align-items: center;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.texts p {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.texts span {
+    background: radial-gradient(64.18% 64.18% at 71.16% 35.69%, #DEF9FA 0.89%, #BEF3F5 17.23%, #9DEDF0 42.04%, #7DE7EB 55.12%, #5CE1E6 71.54%, #33BBCF 100%)
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+    ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+    font-size: 20px;
+}
+.yourss{
+    background: linear-gradient(157.81deg, #DEF9FA -43.27%, #BEF3F5 -21.24%, #9DEDF0 12.19%, #7DE7EB 29.82%, #5CE1E6 51.94%, #33BBCF 90.29%);
+    border: none;
+    border-radius: 10px ;
+    padding: 10px 20px;
+}
+.hovers{
+    color: white;
+padding-top: 100px;
+}
+.hovers p {
+    max-width: 550px;
+}
+.hovers h1{
+    max-width: 550px;
+    font-size: 40px;
+}
+.main__inner{
+    display: flex;
+    justify-content: space-between;
+    /* background:url(../svg/svgss.svg); */
+}
+.mainright img{
+  max-width: 10000px;
+  height: 500px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+.boss{
+    color: white;
+}
+.bos{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+}
+.bos p {
+    color: gray;
+
+}
+.is{
+/* background: linear-gradient(153.47deg, rgba(4, 204, 204, 0) -341.94%, #14101D 95.11%); */
+
+}
+.bot{
+    border-radius: 20px;
+/* background: url(../img/Rectangle\ 14390.png); */
+/* max-width: 500px; */
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.hovers{
+    display: flex;
+    justify-content: space-between;
+}
+.bot p{
+color: gray;
+max-width: 400px;
+}
+.bos p {
+    max-width: 400px;
+
+}
+.secimg{
+    display: flex;
+    gap: 30px;
+}
+.sec__rifht{
+    max-width: 400px;
+    color: white;
+}
+.sec__rifht p {
+    color: gray;
+}
+
+.sec__rifht h1{
+    font-size: 40px;
+}
+.sec__left img{
+    width: 500px;
+}
+.he{
+    /* z-index: -3; */
+    position: relative;
+    display: flex;
+    padding-top: 100px;
+    justify-content: space-between;
+}
+.hse{
+    position: absolute;
+    top: 400px;
+    left: 200px;
+    /* z-index: -1; */
+/* background: url(../svg/Ellipse\ 2333.png)no-repeat; */
+}
+.sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sec__left img{
+    height: 400px;
+}
